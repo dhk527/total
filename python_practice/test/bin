@@ -1,0 +1,11 @@
+#!/bin/csh
+ 
+mkdir test_files
+ 
+foreach binfile(*.bin)
+   xxd "$binfile" > "test_files/$binfile.txt"
+end
+ 
+echo "binfile"
+~
+~                                

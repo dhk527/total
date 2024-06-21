@@ -1,0 +1,5 @@
+Job,HP,Stats,Skill
+Warrior,1500,"Strength: 100, Defense: 80, Agility: 50","Slash, Shield Block"
+Mage,800,"Strength: 30, Defense: 40, Agility: 60","Fireball, Teleport"
+Archer,1000,"Strength: 70, Defense: 50, Agility: 90","Arrow Shot, Evasion"
+Healer,900,"Strength: 40, Defense: 60, Agility: 55","Heal, Protect"
