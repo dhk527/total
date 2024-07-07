@@ -137,3 +137,22 @@ echo $GPW
 ls
 git push main origin
 git push origin main
+ls
+gr ~/.gvimrc 
+gr ~/.bashrc 
+git add .
+git commit "test"
+git commit -m "test"
+git push origin main
+gr .viminfo 
+rm .viminfo
+source ~/.gvimrc
+git add .
+git commit -m "hi"
+git push origin main
+gr ~/.bashrc
+rm -rf .viminfo 
+git add .
+git push origin main
+git add .
+git commit -m "hi"
