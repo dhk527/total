@@ -97,6 +97,12 @@ alias gr='gvim'
 alias py='python3'
 alias ctags='ctags -R .'
 
+alias gitadd='git add .'
+
+cur_time=$(date +"%Y-%m-%d %H:%M:%s")
+alias gitcommit='git commit -m "$cur_time"'
+alias gitpush='git push origin main'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
