@@ -261,3 +261,75 @@ ls
 cd home/
 ls
 gr git.cfg 
+ls
+cd ..
+ls
+cd ..
+ls
+cd home/
+pwd
+echo $PW
+echo $GPW
+echo $GMAIL
+ls
+cd hi
+ls
+gr manager.py 
+gr ~/.bashrc
+ls
+source ~/.bashrc
+echo $GPW
+ls
+git add .
+git commit -m "test"
+ls
+git push origin main
+$GID
+$GPW
+git push origin main
+ls
+cd reset/
+ls
+ls -la
+cd ..
+ls
+rm -rf reset/
+ls
+git add .
+git commit -m "hi"
+git push origin main
+echo $GID
+echo $GPW
+ls
+ls -la
+gr ~/.bashrc
+$GPW
+$GID
+ls
+git add .
+git commit -m "hi"
+git push origin main
+cd hom
+ls
+cd ..
+gr git.cfg 
+ls
+cd hi
+ls
+git add .
+git commit -m "hi"
+ls
+git push origin main
+cd ..
+ls
+gr git.cfg 
+ls
+cd hi
+ls
+source ~/.bashrc
+ls
+ljs
+git push origin main
+git add .
+git commit -m "HI"
+git push origin main
