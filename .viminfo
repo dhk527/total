@@ -17,6 +17,8 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1720333713,,"q"
 :wq!
 |2,0,1720333688,,"wq!"
 :q!
@@ -25,8 +27,6 @@ $
 |2,0,1720333379,,"Q"
 :w
 |2,0,1720333116,,"w"
-:q
-|2,0,1720333071,,"q"
 :!
 |2,0,1720332981,,"!"
 :w!
@@ -73,36 +73,54 @@ $
 |3,0,36,0,1,0,1720332908,"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\""
 
 # File marks:
-'0  102  14  ~/.bashrc
-|4,48,102,14,1720333688,"~/.bashrc"
-'1  1  0  ~/.BASHRC
-|4,49,1,0,1720333381,"~/.BASHRC"
-'2  1  0  ~/.gvimrc
-|4,50,1,0,1720333350,"~/.gvimrc"
-'3  104  35  ~/.bashrc
-|4,51,104,35,1720333268,"~/.bashrc"
+'0  1  0  ~/.bashj
+|4,48,1,0,1720333713,"~/.bashj"
+'1  102  14  ~/.bashrc
+|4,49,102,14,1720333688,"~/.bashrc"
+'2  1  0  ~/.BASHRC
+|4,50,1,0,1720333381,"~/.BASHRC"
+'3  1  0  ~/.gvimrc
+|4,51,1,0,1720333350,"~/.gvimrc"
 '4  104  35  ~/.bashrc
 |4,52,104,35,1720333268,"~/.bashrc"
-'5  1  0  ~/.gvimrc
-|4,53,1,0,1720333071,"~/.gvimrc"
-'6  1  0  /home/git.cfg
-|4,54,1,0,1720332986,"/home/git.cfg"
-'7  3  52  /home/git.cfg
-|4,55,3,52,1720332915,"/home/git.cfg"
+'5  104  35  ~/.bashrc
+|4,53,104,35,1720333268,"~/.bashrc"
+'6  1  0  ~/.gvimrc
+|4,54,1,0,1720333071,"~/.gvimrc"
+'7  1  0  /home/git.cfg
+|4,55,1,0,1720332986,"/home/git.cfg"
 '8  3  52  /home/git.cfg
 |4,56,3,52,1720332915,"/home/git.cfg"
-'9  139  0  ~/.bashrc
-|4,57,139,0,1720332727,"~/.bashrc"
+'9  3  52  /home/git.cfg
+|4,57,3,52,1720332915,"/home/git.cfg"
 
 # Jumplist (newest first):
+-'  1  0  ~/.bashj
+|4,39,1,0,1720333713,"~/.bashj"
 -'  102  14  ~/.bashrc
 |4,39,102,14,1720333688,"~/.bashrc"
+-'  102  14  ~/.bashrc
+|4,39,102,14,1720333688,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720333676,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1720333676,"~/.bashrc"
 -'  1  0  ~/.BASHRC
 |4,39,1,0,1720333381,"~/.BASHRC"
 -'  1  0  ~/.BASHRC
 |4,39,1,0,1720333381,"~/.BASHRC"
+-'  1  0  ~/.BASHRC
+|4,39,1,0,1720333381,"~/.BASHRC"
+-'  1  0  ~/.BASHRC
+|4,39,1,0,1720333381,"~/.BASHRC"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333350,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333350,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333350,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333350,"~/.gvimrc"
 -'  1  0  ~/.gvimrc
 |4,39,1,0,1720333350,"~/.gvimrc"
 -'  1  0  ~/.gvimrc
@@ -121,6 +139,24 @@ $
 |4,39,104,35,1720333268,"~/.bashrc"
 -'  104  35  ~/.bashrc
 |4,39,104,35,1720333268,"~/.bashrc"
+-'  104  35  ~/.bashrc
+|4,39,104,35,1720333268,"~/.bashrc"
+-'  104  35  ~/.bashrc
+|4,39,104,35,1720333268,"~/.bashrc"
+-'  104  35  ~/.bashrc
+|4,39,104,35,1720333268,"~/.bashrc"
+-'  104  35  ~/.bashrc
+|4,39,104,35,1720333268,"~/.bashrc"
+-'  104  35  ~/.bashrc
+|4,39,104,35,1720333268,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720333074,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720333074,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720333074,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720333074,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1720333074,"~/.bashrc"
 -'  1  0  ~/.bashrc
@@ -145,6 +181,22 @@ $
 |4,39,1,0,1720333071,"~/.gvimrc"
 -'  1  0  ~/.gvimrc
 |4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720333071,"~/.gvimrc"
 -'  1  0  /home/git.cfg
 |4,39,1,0,1720332986,"/home/git.cfg"
 -'  1  0  /home/git.cfg
@@ -209,94 +261,46 @@ $
 |4,39,1,0,1720332986,"/home/git.cfg"
 -'  1  0  /home/git.cfg
 |4,39,1,0,1720332986,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
--'  3  52  /home/git.cfg
-|4,39,3,52,1720332915,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
+-'  1  0  /home/git.cfg
+|4,39,1,0,1720332986,"/home/git.cfg"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashj
+	*	1720333712	0
+	"	1	0
 
 > ~/.bashrc
 	*	1720333687	0
