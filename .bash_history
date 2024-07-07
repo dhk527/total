@@ -156,3 +156,108 @@ git add .
 git push origin main
 git add .
 git commit -m "hi"
+git add .
+git commit -m "hi"
+git push origin main
+git add .
+git commit -m "hi"
+git push origin main
+gr python_practice/
+ls
+ls -la
+tree
+ls
+cd ..
+ls
+cd ..
+ls
+cd go
+ls
+mv git.cfg ../
+ls
+cd ..
+ls
+mv go/git.cfg .
+ls
+su mv go/git.cfg .
+sudo mv go/git.cfg .
+ls
+cd go
+ls
+cd ..
+ls
+gr git.cfg 
+cd go
+ls
+gr ~/.gvimrc
+ls
+ls -la
+ls
+ls -la
+gr ~
+cd ..
+gr ~!
+gr ~
+cd ~
+ls
+whoami
+id
+cd ~
+gr ~/.bashrc
+ls
+cd ..
+ls
+cd ..
+ls
+gr git.cfg 
+cd go
+ls
+gr ~/.bashrc
+ls
+source ~/.bashrc
+cd ..
+ls
+pwd
+cd home/
+ls
+pwd
+mv ../git.cfg .
+sudo mv ../git.cfg .
+ls
+cd ..
+ls
+cd go
+ls
+gr ~/.bashrc
+ls
+cd ..
+ls
+cd go
+ls
+cd ..
+cd home
+sl
+ls
+pwd
+source ~/.gvimrc
+cd go
+ls
+cd ..
+cd go
+ls
+source ~/.gvimrc
+echo GID
+echo $GID
+echo $GPW
+echo $PW
+ls
+echo $GEMAIL
+source ~/.gvimrc
+echo $GEMAIL
+echo $PW
+echo $GPW
+cd ..
+ls
+cd home/
+ls
+gr git.cfg 
