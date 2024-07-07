@@ -38,3 +38,27 @@ gr malloc.c
 ls
 gcc malloc.c 
 ls
+gr ~/.cshrc
+gr ~/.gvimrc
+gr ~/.bashrc
+ls
+ls -la
+gr .config/
+cd .config/
+ls
+cd gtk-3.0/
+ls -la
+cd ../..
+ls
+gr git.cfg
+gr manager.py
+pip install gitpython
+ls
+id
+gitid
+gid
+ls
+gid
+git add .
+git commit -m "hi"
+git push origin main

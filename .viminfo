@@ -15,7 +15,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1720329822,,"wq!"
+|2,0,1720330038,,"wq!"
+:Q!
+|2,0,1720330035,,"Q!"
 :q!
 |2,0,1720329014,,"q!"
 :w
@@ -55,28 +57,30 @@ $
 |3,0,36,0,1,0,1719034064,"/"
 
 # File marks:
-'0  2  23  ~/git.cfg
-|4,48,2,23,1720329822,"~/git.cfg"
-'1  8  0  ~/.config
-|4,49,8,0,1720329014,"~/.config"
-'2  2  0  ~/.cshrc
-|4,50,2,0,1720328972,"~/.cshrc"
-'3  1  0  ~/.gvimrc
-|4,51,1,0,1720328962,"~/.gvimrc"
-'4  4  0  ~/C_practice/malloc.c
-|4,52,4,0,1719036296,"~/C_practice/malloc.c"
-'5  1  0  ~/C_practice/hi
-|4,53,1,0,1719034208,"~/C_practice/hi"
+'0  1  0  ~/manager.py
+|4,48,1,0,1720330038,"~/manager.py"
+'1  2  23  ~/git.cfg
+|4,49,2,23,1720329822,"~/git.cfg"
+'2  8  0  ~/.config
+|4,50,8,0,1720329014,"~/.config"
+'3  2  0  ~/.cshrc
+|4,51,2,0,1720328972,"~/.cshrc"
+'4  1  0  ~/.gvimrc
+|4,52,1,0,1720328962,"~/.gvimrc"
+'5  4  0  ~/C_practice/malloc.c
+|4,53,4,0,1719036296,"~/C_practice/malloc.c"
 '6  1  0  ~/C_practice/hi
-|4,54,1,0,1719034197,"~/C_practice/hi"
+|4,54,1,0,1719034208,"~/C_practice/hi"
 '7  1  0  ~/C_practice/hi
-|4,55,1,0,1719034186,"~/C_practice/hi"
+|4,55,1,0,1719034197,"~/C_practice/hi"
 '8  1  0  ~/C_practice/hi
 |4,56,1,0,1719034186,"~/C_practice/hi"
 '9  1  0  ~/C_practice/hi
-|4,57,1,0,1719034052,"~/C_practice/hi"
+|4,57,1,0,1719034186,"~/C_practice/hi"
 
 # Jumplist (newest first):
+-'  1  0  ~/manager.py
+|4,39,1,0,1720330038,"~/manager.py"
 -'  2  23  ~/git.cfg
 |4,39,2,23,1720329822,"~/git.cfg"
 -'  1  0  ~/git.cfg
@@ -85,6 +89,12 @@ $
 |4,39,8,0,1720329014,"~/.config"
 -'  8  0  ~/.config
 |4,39,8,0,1720329014,"~/.config"
+-'  8  0  ~/.config
+|4,39,8,0,1720329014,"~/.config"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
 -'  2  0  ~/.cshrc
 |4,39,2,0,1720328972,"~/.cshrc"
 -'  2  0  ~/.cshrc
@@ -101,6 +111,10 @@ $
 |4,39,1,0,1720328962,"~/.gvimrc"
 -'  1  0  ~/.gvimrc
 |4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
 -'  1  0  ~/.cshrc
 |4,39,1,0,1720328933,"~/.cshrc"
 -'  1  0  ~/.cshrc
@@ -109,6 +123,22 @@ $
 |4,39,1,0,1720328933,"~/.cshrc"
 -'  1  0  ~/.cshrc
 |4,39,1,0,1720328933,"~/.cshrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
 -'  4  0  ~/C_practice/malloc.c
 |4,39,4,0,1719036296,"~/C_practice/malloc.c"
 -'  4  0  ~/C_practice/malloc.c
@@ -158,6 +188,30 @@ $
 -'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034208,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034197,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034197,"~/C_practice/hi"
@@ -206,7 +260,17 @@ $
 -'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034186,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034052,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
@@ -215,70 +279,15 @@ $
 |4,39,1,0,1719034052,"~/C_practice/hi"
 -'  1  0  ~/C_practice/hi
 |4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  1  0  ~/C_practice/hi
-|4,39,1,0,1719034052,"~/C_practice/hi"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  18  34  ~/C_practice/malloc.c
-|4,39,18,34,1719033805,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
--'  19  0  ~/C_practice/malloc.c
-|4,39,19,0,1719033727,"~/C_practice/malloc.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/manager.py
+	*	1720330035	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/git.cfg
 	*	1720329821	0
