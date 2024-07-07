@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/hi/.config'
 let g:netrw_dirhist_0='/home/hi/python_practice'
 let g:netrw_dirhist_9='/home/hi/C_practice/linux_pracitce_learning_08/github'
 let g:netrw_dirhist_8='/home/hi/.vim'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_5='/home/hi/python/class/__pycache__'
 let g:netrw_dirhist_4='/home/hi/assignment/CALC'
 let g:netrw_dirhist_3='/home/hi/assignment'
 let g:netrw_dirhist_2='/home/hi/.vim'
-let g:netrw_dirhist_1='/home/hi/practice/python/data/__pycache__'

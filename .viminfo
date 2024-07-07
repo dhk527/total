@@ -14,16 +14,22 @@
 $
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1718970555,,"q!"
 :wq!
-|2,0,1718894521,,"wq!"
+|2,0,1720329822,,"wq!"
+:q!
+|2,0,1720329014,,"q!"
+:w
+|2,0,1719034618,,"w"
+:.w
+|2,0,1719033873,,".w"
+:term
+|2,0,1719033433,,"term"
 :q
-|2,0,1718894003,,"q"
+|2,0,1719034197,,"q"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1718894001,,"@$"
+|2,1,1720329013,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -32,232 +38,306 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	int 1*p;
+|3,1,0,1,1,0,1720329013,"int 1*p;"
+"1	LINE	0
+	int 1*p;
+|3,0,1,1,1,0,1719034617,"int 1*p;"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1719034612,""
+"3	LINE	0
+		int *p;
+|3,0,3,1,1,0,1719034175,"	int *p;"
+"-	CHAR	0
+	/
+|3,0,36,0,1,0,1719034064,"/"
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1718970555,"~/.gitconfig"
-'1  1  0  ~/script_practice/hi
-|4,49,1,0,1718894521,"~/script_practice/hi"
-'2  7  78  ~/python_practice
-|4,50,7,78,1718894003,"~/python_practice"
-'3  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,51,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
-'4  27  0  ~/.profile
-|4,52,27,0,1718892308,"~/.profile"
-'5  1  0  ~/.sudo_as_admin_successful
-|4,53,1,0,1718892033,"~/.sudo_as_admin_successful"
-'6  1  0  ~/.lesshst
-|4,54,1,0,1718892023,"~/.lesshst"
-'7  1  0  ~/.gitconfig
-|4,55,1,0,1718892008,"~/.gitconfig"
-'8  1  0  ~/.motd_shown
-|4,56,1,0,1718891995,"~/.motd_shown"
-'9  1  0  ~/.python_history
-|4,57,1,0,1718891981,"~/.python_history"
+'0  2  23  ~/git.cfg
+|4,48,2,23,1720329822,"~/git.cfg"
+'1  8  0  ~/.config
+|4,49,8,0,1720329014,"~/.config"
+'2  2  0  ~/.cshrc
+|4,50,2,0,1720328972,"~/.cshrc"
+'3  1  0  ~/.gvimrc
+|4,51,1,0,1720328962,"~/.gvimrc"
+'4  4  0  ~/C_practice/malloc.c
+|4,52,4,0,1719036296,"~/C_practice/malloc.c"
+'5  1  0  ~/C_practice/hi
+|4,53,1,0,1719034208,"~/C_practice/hi"
+'6  1  0  ~/C_practice/hi
+|4,54,1,0,1719034197,"~/C_practice/hi"
+'7  1  0  ~/C_practice/hi
+|4,55,1,0,1719034186,"~/C_practice/hi"
+'8  1  0  ~/C_practice/hi
+|4,56,1,0,1719034186,"~/C_practice/hi"
+'9  1  0  ~/C_practice/hi
+|4,57,1,0,1719034052,"~/C_practice/hi"
 
 # Jumplist (newest first):
--'  1  0  ~/.gitconfig
-|4,39,1,0,1718970555,"~/.gitconfig"
--'  1  0  ~/script_practice/hi
-|4,39,1,0,1718894521,"~/script_practice/hi"
--'  1  0  ~/script_practice/hi
-|4,39,1,0,1718894521,"~/script_practice/hi"
--'  7  78  ~/python_practice
-|4,39,7,78,1718894003,"~/python_practice"
--'  7  78  ~/python_practice
-|4,39,7,78,1718894003,"~/python_practice"
--'  7  78  ~/python_practice
-|4,39,7,78,1718894003,"~/python_practice"
--'  7  78  ~/python_practice
-|4,39,7,78,1718894003,"~/python_practice"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  7  79  ~/C_practice/linux_pracitce_learning_08/github
-|4,39,7,79,1718893191,"~/C_practice/linux_pracitce_learning_08/github"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  27  0  ~/.profile
-|4,39,27,0,1718892308,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1718892303,"~/.profile"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.sudo_as_admin_successful
-|4,39,1,0,1718892033,"~/.sudo_as_admin_successful"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
--'  1  0  ~/.lesshst
-|4,39,1,0,1718892023,"~/.lesshst"
+-'  2  23  ~/git.cfg
+|4,39,2,23,1720329822,"~/git.cfg"
+-'  1  0  ~/git.cfg
+|4,39,1,0,1720329034,"~/git.cfg"
+-'  8  0  ~/.config
+|4,39,8,0,1720329014,"~/.config"
+-'  8  0  ~/.config
+|4,39,8,0,1720329014,"~/.config"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
+-'  2  0  ~/.cshrc
+|4,39,2,0,1720328972,"~/.cshrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720328962,"~/.gvimrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  1  0  ~/.cshrc
+|4,39,1,0,1720328933,"~/.cshrc"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  4  0  ~/C_practice/malloc.c
+|4,39,4,0,1719036296,"~/C_practice/malloc.c"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034208,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034197,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034186,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  1  0  ~/C_practice/hi
+|4,39,1,0,1719034052,"~/C_practice/hi"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  18  34  ~/C_practice/malloc.c
+|4,39,18,34,1719033805,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
+-'  19  0  ~/C_practice/malloc.c
+|4,39,19,0,1719033727,"~/C_practice/malloc.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/git.cfg
+	*	1720329821	0
+	"	2	23
+	^	2	24
+	.	3	0
+	+	2	8
+	+	1	1
+	+	2	6
+	+	1	10
+	+	3	0
+
+> ~/.gvimrc
+	*	1720328961	0
+	"	1	0
+
+> ~/.cshrc
+	*	1720328941	0
+	"	2	0
+	.	1	12
+	+	1	12
+
+> ~/C_practice/malloc.c
+	*	1719034620	0
+	"	4	0
+	.	4	0
+	+	1	6
+	+	21	1
+	+	5	17
+	+	8	36
+	+	9	1
+	+	15	10
+	+	20	0
+	+	18	8
+	+	17	3
+	+	18	27
+	+	15	6
+	+	14	11
+	+	18	15
+	+	19	12
+	+	19	9
+	+	19	12
+	+	20	0
+	+	1	12
+	+	2	18
+	+	18	34
+	+	4	7
+	+	8	0
+	+	17	18
+	+	8	0
+	+	4	4
+	+	7	0
+	+	8	0
+	+	7	5
+	+	4	0
+
+> ~/C_practice/hi
+	*	1719034206	0
+	"	1	0
 
 > ~/.gitconfig
 	*	1718970551	0
