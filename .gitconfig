@@ -3,3 +3,5 @@
 	name = dhk527
 [init]
 	defaultBranch = main
+[credential]
+	helper = cache
