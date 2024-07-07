@@ -17,16 +17,20 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1720331151,,"wq"
+:q!
+|2,0,1720331121,,"q!"
 :wq!
-|2,0,1720330698,,"wq!"
+|2,0,1720330977,,"wq!"
+:102
+|2,0,1720330973,,"102"
+:w
+|2,0,1720330059,,"w"
 :q
 |2,0,1720330549,,"q"
-:w
-|2,0,1720330385,,"w"
 :Q!
 |2,0,1720330035,,"Q!"
-:q!
-|2,0,1720329014,,"q!"
 :.w
 |2,0,1719033873,,".w"
 :term
@@ -49,254 +53,262 @@ $
 	int 1*p;
 |3,0,0,1,1,0,1720330295,"int 1*p;"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1720330634,""
+	export GPW="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"
+|3,1,1,1,1,0,1720331145,"export GPW=\"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\""
 "2	LINE	0
-	int 1*p;
-|3,0,2,1,1,0,1719034617,"int 1*p;"
-"3	LINE	0
 	
-|3,0,3,1,1,0,1719034612,""
+|3,0,2,1,1,0,1720330634,""
+"3	LINE	0
+	int 1*p;
+|3,0,3,1,1,0,1719034617,"int 1*p;"
 "4	LINE	0
+	
+|3,0,4,1,1,0,1719034612,""
+"5	LINE	0
 		int *p;
-|3,0,4,1,1,0,1719034175,"	int *p;"
+|3,0,5,1,1,0,1719034175,"	int *p;"
 "-	CHAR	0
 	/
 |3,0,36,0,1,0,1719034064,"/"
 
 # File marks:
-'0  102  51  ~/.bashrc
-|4,48,102,51,1720330698,"~/.bashrc"
-'1  2  0  ~/git.cfg
-|4,49,2,0,1720330636,"~/git.cfg"
-'2  1  0  ~/git.cfg
-|4,50,1,0,1720330631,"~/git.cfg"
-'3  1  0  ~/git.cfg
-|4,51,1,0,1720330631,"~/git.cfg"
-'4  99  0  ~/.bashrc
-|4,52,99,0,1720330573,"~/.bashrc"
-'5  99  0  ~/.bashrc
-|4,53,99,0,1720330573,"~/.bashrc"
-'6  1  0  ~/.bash
-|4,54,1,0,1720330549,"~/.bash"
-'7  1  0  ~/git.cfg
-|4,55,1,0,1720330531,"~/git.cfg"
-'8  1  0  ~/git.cfg
-|4,56,1,0,1720330531,"~/git.cfg"
-'9  1  0  ~/.git/refs/remotes/origin/main
-|4,57,1,0,1720330297,"~/.git/refs/remotes/origin/main"
+'0  101  0  ~/.bashrc
+|4,48,101,0,1720331151,"~/.bashrc"
+'1  28  0  ~/.gvimrc
+|4,49,28,0,1720331121,"~/.gvimrc"
+'2  102  7  ~/.bashrc
+|4,50,102,7,1720330977,"~/.bashrc"
+'3  102  7  ~/.bashrc
+|4,51,102,7,1720330977,"~/.bashrc"
+'4  102  7  ~/.bashrc
+|4,52,102,7,1720330955,"~/.bashrc"
+'5  102  7  ~/.bashrc
+|4,53,102,7,1720330955,"~/.bashrc"
+'6  134  0  ~/.bashrc
+|4,54,134,0,1720330940,"~/.bashrc"
+'7  134  0  ~/.bashrc
+|4,55,134,0,1720330940,"~/.bashrc"
+'8  134  0  ~/.bashrc
+|4,56,134,0,1720330940,"~/.bashrc"
+'9  134  0  ~/.bashrc
+|4,57,134,0,1720330940,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  101  0  ~/.bashrc
+|4,39,101,0,1720331151,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720331125,"~/.bashrc"
+-'  28  0  ~/.gvimrc
+|4,39,28,0,1720331121,"~/.gvimrc"
+-'  28  0  ~/.gvimrc
+|4,39,28,0,1720331121,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720331120,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720331120,"~/.gvimrc"
+-'  102  7  ~/.bashrc
+|4,39,102,7,1720330977,"~/.bashrc"
+-'  102  7  ~/.bashrc
+|4,39,102,7,1720330977,"~/.bashrc"
+-'  102  7  ~/.bashrc
+|4,39,102,7,1720330977,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330971,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330971,"~/.bashrc"
+-'  102  7  ~/.bashrc
+|4,39,102,7,1720330955,"~/.bashrc"
+-'  102  7  ~/.bashrc
+|4,39,102,7,1720330955,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330948,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330948,"~/.bashrc"
+-'  134  0  ~/.bashrc
+|4,39,134,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  135  0  ~/.bashrc
+|4,39,135,0,1720330940,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330937,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330937,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  101  33  ~/.bashrc
+|4,39,101,33,1720330927,"~/.bashrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
+-'  1  0  ~/.gvimrc
+|4,39,1,0,1720330887,"~/.gvimrc"
 -'  102  51  ~/.bashrc
 |4,39,102,51,1720330698,"~/.bashrc"
+-'  102  51  ~/.bashrc
+|4,39,102,51,1720330698,"~/.bashrc"
+-'  102  51  ~/.bashrc
+|4,39,102,51,1720330698,"~/.bashrc"
+-'  102  51  ~/.bashrc
+|4,39,102,51,1720330698,"~/.bashrc"
+-'  102  51  ~/.bashrc
+|4,39,102,51,1720330698,"~/.bashrc"
+-'  102  51  ~/.bashrc
+|4,39,102,51,1720330698,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330646,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330646,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1720330646,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1720330646,"~/.bashrc"
 -'  2  0  ~/git.cfg
 |4,39,2,0,1720330636,"~/git.cfg"
 -'  2  0  ~/git.cfg
 |4,39,2,0,1720330636,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330634,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330634,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330631,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330631,"~/git.cfg"
--'  99  0  ~/.bashrc
-|4,39,99,0,1720330573,"~/.bashrc"
--'  99  0  ~/.bashrc
-|4,39,99,0,1720330573,"~/.bashrc"
--'  99  0  ~/.bashrc
-|4,39,99,0,1720330573,"~/.bashrc"
--'  99  0  ~/.bashrc
-|4,39,99,0,1720330573,"~/.bashrc"
--'  99  0  ~/.bashrc
-|4,39,99,0,1720330573,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1720330564,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1720330564,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1720330564,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1720330564,"~/.bashrc"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/.bash
-|4,39,1,0,1720330549,"~/.bash"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/git.cfg
-|4,39,1,0,1720330531,"~/git.cfg"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
--'  1  0  ~/.git/refs/remotes/origin/main
-|4,39,1,0,1720330297,"~/.git/refs/remotes/origin/main"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
+-'  2  0  ~/git.cfg
+|4,39,2,0,1720330636,"~/git.cfg"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bashrc
-	*	1720330696	0
-	"	102	51
-	^	102	52
-	.	102	51
-	+	1	0
-	+	102	51
+	*	1720331149	0
+	"	101	0
+	.	102	0
+	+	133	0
+	+	99	0
+	+	101	33
+	+	102	0
+
+> ~/.gvimrc
+	*	1720331120	0
+	"	28	0
 
 > ~/git.cfg
 	*	1720330635	0
@@ -332,10 +344,6 @@ $
 	^	1	0
 	.	1	0
 	+	1	0
-
-> ~/.gvimrc
-	*	1720328961	0
-	"	1	0
 
 > ~/.cshrc
 	*	1720328941	0

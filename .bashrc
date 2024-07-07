@@ -99,7 +99,6 @@ alias ctags='ctags -R .'
 
 export GID="dhk527"
 export GEMAIL="dhk_0527@naver.com"
-export PW="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"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

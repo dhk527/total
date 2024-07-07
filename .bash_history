@@ -62,3 +62,78 @@ gid
 git add .
 git commit -m "hi"
 git push origin main
+ls
+GID
+source ~/.bashrc
+GDI
+GID
+source ~/.bashrc
+GID
+echo GID
+echo $GID
+git add .
+git commit -m "hi"
+git push origin main
+ls
+ls -la
+gr .git
+cd .git/
+ls
+cd branches/
+ls
+ls -la
+cd ..
+ls
+c d hooks/
+ls
+cd hooks/
+ls
+cd ..
+ls
+cd ..
+ls
+gr git.cfg 
+ls
+git config --global credential.helper cache
+git add .
+git commit -m "test"
+git push origin main
+ls
+gr manager.py 
+gr ~/.bash
+gr ~/.bashrc
+ls
+gr git.cfg 
+gr ~/.bashrc
+git add .
+ls
+git add ~/.gvimrc
+git add ~/.bashrc | ~/.gvimrc
+git add ~/.bashrc | git add ~/.gvimrc
+git add ~/.bashrc
+git commit -m "hi"
+git push origin main
+git add .
+git commit -m "hi"
+git origin main
+git push origin main
+ls -la
+cd reset/
+ls
+ls -l;a
+ls -la
+cd ..
+ls
+ls -la
+gr .gvimrc 
+echo $PW
+echo $GID
+echo $PW
+
+echo $PW
+gvim ~/.bashrc
+source ~/.bashrc
+echo $GPW
+ls
+git push main origin
+git push origin main
