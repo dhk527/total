@@ -333,3 +333,222 @@ git push origin main
 git add .
 git commit -m "HI"
 git push origin main
+git add .
+git commit -m "HI"
+git push origin main
+ls
+gr ~/.gvimrc
+gr ~/.bashrc
+source ~/.bashrc
+gr ~/.gvimrc
+gitcommit
+gitadd
+gitcommit
+gr ~/.BASHRC
+gr ~/.bashrc 
+$cur_time
+echo $cur_time
+gitadd
+gitpush
+ls
+git add .
+gitcommit
+source ~/.bashrc
+sudo apt install data
+source ~/.bashrc
+
+sudo apt install date
+ls
+git ~/.bashrc
+gr ~/.bashrc
+source ~/.bashrc
+gitadd
+gitcommit
+gr ~/.bashj
+gr ~/.bashrc
+source ~/.bashr
+gitadd
+gitcommit
+ls
+echo $cur_time
+source ~/.gvimrc
+source ~/.bashrc
+echo $cur_time 
+source ~/.bashrc
+echo $cur_time 
+gr hi.sv
+ls
+mv hi.sv Verilog_practice/
+ls
+cd Verilog_practice/
+ls
+mkdir practice
+mv hi.sv practice/
+ls
+cd practice/
+ls
+mv hi.sv cdc_or_timing.sv
+ls
+[cd ..
+cd ..
+ls
+cd ..
+ls
+cd script_practice/
+ls
+mkdir LOL
+ls
+cd LOL/
+ls
+gr test.py
+py test.py 
+gr test.py
+requests
+pip install requests
+ls
+py test.py 
+gr test.py 
+gr id.log
+gr id.log 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+ls
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+py test.py > hi
+gr hi
+ls
+cd python_practice/
+ls
+cd ..
+ls
+cd script_practice/
+ls
+mv LOL ../
+ls
+cd ..
+ls
+cd LOL
+ls
+gr te
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+ls
+gr hi
+ls
+py test.py 
+gr hi
+py test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+py test.py 
+py test.py
+py test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+ls
+cd LOL
+ls
+gr test.py 
+ls
+cd LOL/
+ls
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+ks
+ls
+gr hi
+py test.py 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+:q
+py test.py 
+ls
+rm -rf 1 hi
+ls
+rm -rf 1 hi
+py test.py 
+gr test.py 
+gr test.py > hi
+py test.py > hi
+ls
+gr hi
+ls
+gr test.py 
+cat id.log 
+rm
+rm id.log 
+ls
+gr test.py 
+py test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr test.py 
+py test.py > hi
+gr test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+ls
+gr test.py 
+ls
+gr test.py 
+ls
+gr hi
+gr test.py 
+ls
+cd ..
+ls
+mkdir LOLAPI
+ls
+cd LOLAPI/
+ls
+git clone riot/lol
+cd ..
+ls
+rm -rf LOLAPI/
+ls
+cd Lo
+cd LOL/
+ls

@@ -99,7 +99,7 @@ alias ctags='ctags -R .'
 
 alias gitadd='git add .'
 
-cur_time=$(date +"%Y-%m-%d %H:%M:%2s")
+cur_time=$(date +"%Y-%m-%d %H:%M")
 alias gitcommit='git commit -m "$cur_time"'
 alias gitpush='git push origin main'
 
