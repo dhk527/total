@@ -552,3 +552,247 @@ ls
 cd Lo
 cd LOL/
 ls
+gitadd
+gitcommit
+gitpush
+ls
+cd LOL/
+ls
+gr test.py 
+exit
+sudo hi
+su hi
+cd LOL/
+ls
+gr test.py 
+py test.py 
+ls
+py test.py 
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+ls
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+py test.py > hi
+pip install collection
+py test.py > hi
+ls
+gr hi
+gitadd
+gitcommit
+gitpush
+ls
+gr ~/.cshr
+gr ~/.bashrc
+ls
+cd ..
+ls
+cd LOL/
+ls
+ls -la
+cd ..
+ls
+gitadd
+gitcommit
+gitpush
+ls
+ls -la
+ls
+cd ..
+ls
+gr git.cfg 
+cd -
+ls
+cd hi
+ls
+gitpush
+cd ..
+ls
+gr git.cfg 
+cd -
+ls
+gitpush
+GID
+gitpush
+echo GPW
+echo $GPW
+gitpush
+su hi
+ls
+cd LOL
+ls
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+ls
+py test.py 
+ls
+cd LOL/
+ls
+py test.py 
+gr test.py 
+py test.py 
+gr test.py 
+py test.py > hi 
+gr hi
+py test.py
+ls
+cd LOL/
+ls
+gr test.py 
+py test.py 
+[A
+py test.py
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr test.py 
+py test.py  > hi
+gr h i
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+py test.py  > hi
+gr hi
+ls
+cd LOL/
+ls
+gr test.py 
+py test.py > hi
+:114
+py test.py > hi
+gr hi
+py test.py > hi
+gr hi
+gr h i
+ls
+gr test.py 
+ls
+py test.py > hi
+gr hi
+ls
+cd LOL/
+ls
+gr hi
+python
+py
+ls
+cd Lo
+\ls
+cd LOL
+ls
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+ls
+cd LOL/
+ls
+gr test.py 
+py test.py 
+gr test.py 
+py test.py 
+py test.py > hi
+gr hi
+py test.py > hi2
+gr hi2
+cp test.py testv2.py
+mv testv1.py
+mv test.py testv1.py
+ls
+gr testv2.py 
+rm @
+rm hi
+gr hi2 
+py testv2.py 
+py testv2.py > bye
+gr bye 
+gr testv2.py 
+py
+py testv2.py > bye
+gr bye 
+ls
+gr lolAPI.cfg
+ls
+cd LOl
+ls
+cd Lo
+cd LOL/
+ls
+gr testv2.py 
+ls
+cd ../
+ls
+cd ..
+ls
+gr lolAPI.cfg
+ls
+cd hi
+ls
+cd LO`
+
+
+cd LOL/
+ls
+py testv2.py 
+ls
+cd ../..
+ls
+cd ..
+ls
+cd -
+cd hi
+ls
+cd LOL/
+ls
+cd ..
+ls
+gr lolAPI.cfg
+gr lolinfo.cfg
+ls
+ls -la
+gr git.cfg 
+gr hi
+ls
+gr lol.cfg
+las
+ls
+su hi

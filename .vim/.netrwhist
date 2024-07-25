@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home'
 let g:netrw_dirhist_3='/home/hi'
 let g:netrw_dirhist_2='/home/hi/python_practice'
 let g:netrw_dirhist_1='/home/hi/.git/refs/remotes/origin'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/home/hi/.git'
 let g:netrw_dirhist_7='/home/hi/.git/objects'
 let g:netrw_dirhist_6='/home/hi/.git'
 let g:netrw_dirhist_5='/home/hi/.git/info'
-let g:netrw_dirhist_4='/home/hi/.git'

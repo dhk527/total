@@ -1,0 +1,143 @@
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 2.000, Total matches: 4
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 0.667, Total matches: 6
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 0.800, Total matches: 5
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'TOP'), ('JH', 'UTILITY')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 3.000, Total matches: 4
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 1.333, Total matches: 3
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'JUNGLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.800, Total matches: 5
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 2.000, Total matches: 2
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 2.667, Total matches: 3
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'MIDDLE'), ('JH', 'UTILITY')] -> Win Ratio : 1.333, Total matches: 3
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'UTILITY'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'UTILITY'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 1
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 1.333, Total matches: 3
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'BOTTOM'), ('JH', 'UTILITY')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'TOP')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'JUNGLE')] -> Win Ratio : 4.000, Total matches: 2
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'JUNGLE'), ('DH', 'BOTTOM'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'BOTTOM'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'MIDDLE')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 4.000, Total matches: 4
+Team: [('MH', 'TOP'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 4.000, Total matches: 1
+Team: [('MH', 'JUNGLE'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 2
+Team: [('MH', 'JUNGLE'), ('DH', 'MIDDLE'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 2.667, Total matches: 3
+Team: [('MH', 'MIDDLE'), ('DH', 'TOP'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 0.000, Total matches: 0
+Team: [('MH', 'MIDDLE'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio : 1.333, Total matches: 3
+
+Best Team: [('MH', 'TOP'), ('DH', 'JUNGLE'), ('SH', 'UTILITY'), ('JH', 'BOTTOM')] -> Win Ratio: 4.00, Total Matchse : 4
+Matching counts of positions and puuids in matches:
+Position: TOP, puuid: MH, Count: 14
+Position: BOTTOM, puuid: SH, Count: 8
+Position: MIDDLE, puuid: DH, Count: 27
+Position: UTILITY, puuid: JH, Count: 48
+Position: MIDDLE, puuid: SH, Count: 15
+Position: BOTTOM, puuid: MH, Count: 30
+Position: TOP, puuid: DH, Count: 21
+Position: JUNGLE, puuid: MH, Count: 21
+Position: BOTTOM, puuid: JH, Count: 36
+Position: JUNGLE, puuid: DH, Count: 30
+Position: UTILITY, puuid: SH, Count: 16
+Position: TOP, puuid: SH, Count: 28
+Position: JUNGLE, puuid: SH, Count: 26
+Position: MIDDLE, puuid: MH, Count: 11
+Position: UTILITY, puuid: MH, Count: 12
+Position: UTILITY, puuid: DH, Count: 9
+Position: BOTTOM, puuid: DH, Count: 12
+Position: JUNGLE, puuid: JH, Count: 5
+Position: MIDDLE, puuid: JH, Count: 4
+Position: TOP, puuid: JH, Count: 5
