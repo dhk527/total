@@ -796,3 +796,83 @@ gr lol.cfg
 las
 ls
 su hi
+ls
+cd ..
+ls
+gr lolAPI.cfg
+cd hi
+ls
+gr ..
+cd ..
+ls
+cd hi
+ls
+gr lolAPI.cfg
+ls
+mv lolAPI.cfg ../
+su mv lolAPI.cfg ../
+sudo my lolAPI.cfg 
+sudo mv lolAPI.cfg ../
+ls
+cd ../
+ls
+gr lolAPI.cfg 
+ls
+cd hi
+ls
+cd LOl
+cd Lo
+cd LOL/
+ls
+gr testv
+gr testv2.py 
+py testv2.py 
+ls
+cd ../..
+ls
+gr lolAPI.cfg 
+py testv2.py 
+cd -
+ls
+py testv2.py 
+ls
+cd ..
+ls
+cd ..
+ls
+gr lolAPI.cfg 
+cd -
+ls
+cd LOL/
+ls
+py testv2.py 
+
+py testv2.py 
+ls
+cp testv2.py testv3.py
+gr testv3.py 
+py testv3.py 
+ls
+cd ..
+sl
+ls
+rm -rf ./'!'
+ls
+git add
+git add .
+git commit -m "lol"
+git push origin main
+ls
+cd ..
+ls
+gr git.cfg 
+cd -
+ls
+git push origin main
+git push -u origin main
+git push origin main
+ls
+cd LOL/
+ls
+py testv3.py 
+                                                                                                                                                                                                                                                                                                                                                                          

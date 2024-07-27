@@ -21,9 +21,7 @@ url_round = config['URL']['url_round']
 
 url_match = url_match_template.format(count=count, API_KEY=api_key)
 
-
 MATCH_INFO = requests.get(url_match)
-print(MATCH_INFO)
 MATCH_INFO_json = MATCH_INFO.json()
 
 # QueueId 440 5v5 Ranked Flex games
@@ -95,7 +93,6 @@ print(df_list)
 """
 
 # 승리/패배 비율 계산
-win_ratios = {}
 
 for team, matches in grouped_matches.items():
 	total_matches = len(matches)
@@ -121,7 +118,7 @@ print(f"\nBest Team: {best_team_names} -> Win Ratio: {best_win_ratio:.2f}, Total
 
 print("Matching counts of positions and puuids in matches:")
 for (position, puuid), count in position_puuid_count.items():
-	print(f"Position: {position}, puuid: {our_team.get(puuid,puuid)}, Count: {count}")
+	print(f"Position: {position}, puuid: {our_team.get(puuid,puuid)}, Count: {count}, win rate: {win_ratios}")
 """
 # DataFrame으로 변환
 df_list = []

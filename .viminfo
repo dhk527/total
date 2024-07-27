@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<get_match_info\>
+~Msle0~/\<MATCH_INFO_json\>
 
 # Last Substitute Search Pattern:
 ~MSle0&puuid
@@ -20,10 +20,28 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1722087032,,"q"
+:wq!
+|2,0,1722086998,,"wq!"
 :w!
-|2,0,1721912918,,"w!"
+|2,0,1722086910,,"w!"
+:99
+|2,0,1722001641,,"99"
+:62
+|2,0,1722001492,,"62"
+:94
+|2,0,1722001461,,"94"
+:138
+|2,0,1722001235,,"138"
+:.,.+1!:w!@
+|2,0,1722001228,,".,.+1!:w!@"
+:97
+|2,0,1722001220,,"97"
+:q!
+|2,0,1722001929,,"q!"
 :W!
-|2,0,1721912829,,"W!"
+|2,0,1721911663,,"W!"
 :w~!
 |2,0,1721911981,,"w~!"
 :63
@@ -32,22 +50,14 @@ $
 |2,0,1721911096,,"!"
 :37
 |2,0,1721911014,,"37"
-:62
-|2,0,1721910292,,"62"
-:q!
-|2,0,1721910285,,"q!"
 :w
 |2,0,1721909690,,"w"
-:wq!
-|2,0,1721909776,,"wq!"
 :wqall!
 |2,0,1721909580,,"wqall!"
 :pwd
 |2,0,1721909462,,"pwd"
 : 4
 |2,0,1721506425,," 4"
-:q
-|2,0,1721504808,,"q"
 :w!@
 |2,0,1721504597,,"w!@"
 :95
@@ -68,8 +78,6 @@ $
 |2,0,1721387010,,"104"
 :114
 |2,0,1721386990,,"114"
-:99
-|2,0,1721386963,,"99"
 :64
 |2,0,1721386830,,"64"
 :53
@@ -112,24 +120,42 @@ $
 |2,0,1720855736,,"48"
 :wq
 |2,0,1720842860,,"wq"
-:set fileformat=unix
-|2,0,1720842850,,"set fileformat=unix"
-:102
-|2,0,1720333719,,"102"
-:Q
-|2,0,1720333379,,"Q"
-:100
-|2,0,1720331804,,"100"
 
 # Search String History (newest to oldest):
+? \<MATCH_INFO_json\>
+|2,1,1722085930,,"\\<MATCH_INFO_json\\>"
+?/get_match
+|2,1,1722085912,47,"get_match"
+?/indi
+|2,1,1722002861,47,"indi"
+?/Matching
+|2,1,1722002816,47,"Matching"
+?/Total
+|2,1,1722002810,47,"Total"
+?/win_ratios
+|2,1,1722001549,47,"win_ratios"
+?/win_ra
+|2,1,1722001628,47,"win_ra"
+?/win_ration
+|2,1,1722001624,47,"win_ration"
+?/team
+|2,1,1721916279,47,"team"
+? \<win_ratios\>
+|2,1,1721916263,,"\\<win_ratios\\>"
+?/MATCH
+|2,1,1721915858,47,"MATCH"
+? \<grouped_matches\>
+|2,1,1721915375,,"\\<grouped_matches\\>"
+?/win_ratio
+|2,1,1721915308,47,"win_ratio"
+?/our_team
+|2,1,1721915247,47,"our_team"
+? \<get\>
+|2,1,1721915239,,"\\<get\\>"
 ? \<get_match_info\>
 |2,1,1721912314,,"\\<get_match_info\\>"
 ? \<url_round\>
 |2,1,1721912277,,"\\<url_round\\>"
-?/get_match
-|2,1,1721912171,47,"get_match"
-? \<MATCH_INFO_json\>
-|2,1,1721911865,,"\\<MATCH_INFO_json\\>"
 ?/MATCH_INFO
 |2,1,1721911792,47,"MATCH_INFO"
 ? \<url_match\>
@@ -170,8 +196,6 @@ $
 |2,1,1721504436,,"\\<position\\>"
 ?/win_rat
 |2,1,1721504228,47,"win_rat"
-?/win_ration
-|2,1,1721504225,47,"win_ration"
 ? \<teamPosition\>
 |2,1,1721503677,,"\\<teamPosition\\>"
 ? \<match_info\>
@@ -198,30 +222,6 @@ $
 |2,1,1721389924,47,"total"
 ?/totl
 |2,1,1721389922,47,"totl"
-?/count
-|2,1,1721389823,47,"count"
-?/Count
-|2,1,1721392124,47,"Count"
-?/4.0
-|2,1,1721391623,47,"4.0"
-?/best
-|2,1,1721390893,47,"best"
-?/4.000
-|2,1,1721310734,47,"4.000"
-?/Best
-|2,1,1721310690,47,"Best"
-?/bet
-|2,1,1721310689,47,"bet"
-?/match_sum_list
-|2,1,1721310905,47,"match_sum_list"
-?/match_id
-|2,1,1721310899,47,"match_id"
-?/result
-|2,1,1721310151,47,"result"
-?/Mk
-|2,1,1721311401,47,"Mk"
-?/W8
-|2,1,1721311382,47,"W8"
 
 # Expression History (newest to oldest):
 
@@ -231,269 +231,349 @@ $
 
 # Registers:
 "0	LINE	0
-	url_round = url_round.format(MATCH_INFO=MATCH_INFO,API_KEY=api_key)
-|3,0,0,1,1,0,1721912243,"url_round = url_round.format(MATCH_INFO=MATCH_INFO,API_KEY=api_key)"
-""1	LINE	0
+	url_match_template = config['URL']['url_match_template']
+|3,0,0,1,1,0,1721913183,"url_match_template = config['URL']['url_match_template']"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1721912256,""
+|3,0,1,1,1,0,1722002736,""
 "2	LINE	0
-	url_round = url_round.format(MATCH_INFO=MATCH_INFO,API_KEY=api_key)
-|3,0,2,1,1,0,1721912255,"url_round = url_round.format(MATCH_INFO=MATCH_INFO,API_KEY=api_key)"
+	
+|3,0,2,1,1,0,1722001996,""
 "3	LINE	0
-	print(url_round)
-|3,0,3,1,1,0,1721912241,"print(url_round)"
+	
+	
+|3,0,3,1,2,0,1722001996,"",""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1721911974,""
+	"""
+|3,0,4,1,1,0,1722001995,"\"\"\""
 "5	LINE	0
-	print(url_round)
-|3,0,5,1,1,0,1721911951,"print(url_round)"
+	for matches 
+|3,0,5,1,1,0,1722001635,"for matches "
 "6	LINE	0
-	MATCH_INFO = requests.get(url_match)
-	MATCH_INFO_json = MATCH_INFO.json()
-|3,0,6,1,2,0,1721911890,"MATCH_INFO = requests.get(url_match)","MATCH_INFO_json = MATCH_INFO.json()"
-"7	LINE	0
-	url_round = url_round.format(, API_KEY=api_key)
-|3,0,7,1,1,0,1721911544,"url_round = url_round.format(, API_KEY=api_key)"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1721911538,""
+|3,0,6,1,1,0,1722001635,""
+"7	LINE	0
+	df_list = []
+	for team, matches in grouped_matches.items():
+|3,0,7,1,2,0,1722001071,"df_list = []","for team, matches in grouped_matches.items():"
+"8	LINE	0
+	"""
+	# DataFrame으로 변환
+|3,0,8,1,2,0,1722001070,"\"\"\"","# DataFrame으로 변환"
 "9	LINE	0
-	url = f'https://asia.api.riotgames.com/lol/match/v5/matches/{MATCH_INFO}?api_key={API_KEY}'
-|3,0,9,1,1,0,1721911420,"url = f'https://asia.api.riotgames.com/lol/match/v5/matches/{MATCH_INFO}?api_key={API_KEY}'"
-"-	CHAR	0
-	e
-|3,0,36,0,1,0,1721912047,"e"
+	
+|3,0,9,1,1,0,1721916316,""
+""-	CHAR	0
+	0
+|3,1,36,0,1,0,1722086996,"0"
 
 # File marks:
-'0  36  0  ~/LOL/testv2.py
-|4,48,36,0,1721912920,"~/LOL/testv2.py"
-'1  3  9  /home/lolAPI.cfg
-|4,49,3,9,1721910285,"/home/lolAPI.cfg"
-'2  1  0  ~/LOL/testv
-|4,50,1,0,1721909854,"~/LOL/testv"
-'3  1  0  /home/lolAPI.cfg
-|4,51,1,0,1721909831,"/home/lolAPI.cfg"
-'4  1  0  /home/lolAPI.cfg
-|4,52,1,0,1721909831,"/home/lolAPI.cfg"
-'5  7  0  /home/lolAPI.cfg
-|4,53,7,0,1721909786,"/home/lolAPI.cfg"
-'6  7  0  /home/lolAPI.cfg
-|4,54,7,0,1721909786,"/home/lolAPI.cfg"
-'7  6  0  /home/lolAPI.cfg
-|4,55,6,0,1721909786,"/home/lolAPI.cfg"
-'8  6  0  /home/lolAPI.cfg
-|4,56,6,0,1721909786,"/home/lolAPI.cfg"
-'9  7  0  /home/lolAPI.cfg
-|4,57,7,0,1721909786,"/home/lolAPI.cfg"
+'0  153  0  ~/LOL/0727
+|4,48,153,0,1722091193,"~/LOL/0727"
+'1  1  0  ~/LOL/lolAPI.cfg
+|4,49,1,0,1722087032,"~/LOL/lolAPI.cfg"
+'2  3  9  /home/lolAPI.cfg
+|4,50,3,9,1722086998,"/home/lolAPI.cfg"
+'3  2  52  /home/lolAPI.cfg
+|4,51,2,52,1722085987,"/home/lolAPI.cfg"
+'4  2  52  /home/lolAPI.cfg
+|4,52,2,52,1722085987,"/home/lolAPI.cfg"
+'5  60  18  ~/LOL/rate.py
+|4,53,60,18,1722085941,"~/LOL/rate.py"
+'6  139  0  ~/LOL/test
+|4,54,139,0,1722010988,"~/LOL/test"
+'7  113  5  ~/LOL/rate.py
+|4,55,113,5,1722007247,"~/LOL/rate.py"
+'8  113  5  ~/LOL/rate.py
+|4,56,113,5,1722007247,"~/LOL/rate.py"
+'9  134  0  ~/LOL/test
+|4,57,134,0,1722002853,"~/LOL/test"
 
 # Jumplist (newest first):
--'  36  0  ~/LOL/testv2.py
-|4,39,36,0,1721912920,"~/LOL/testv2.py"
--'  17  0  ~/LOL/testv2.py
-|4,39,17,0,1721912788,"~/LOL/testv2.py"
--'  18  0  ~/LOL/testv2.py
-|4,39,18,0,1721912740,"~/LOL/testv2.py"
--'  35  2  ~/LOL/testv2.py
-|4,39,35,2,1721912740,"~/LOL/testv2.py"
--'  16  34  ~/LOL/testv2.py
-|4,39,16,34,1721912740,"~/LOL/testv2.py"
--'  21  0  ~/LOL/testv2.py
-|4,39,21,0,1721912698,"~/LOL/testv2.py"
--'  22  12  ~/LOL/testv2.py
-|4,39,22,12,1721912698,"~/LOL/testv2.py"
--'  37  29  ~/LOL/testv2.py
-|4,39,37,29,1721912698,"~/LOL/testv2.py"
--'  25  28  ~/LOL/testv2.py
-|4,39,25,28,1721912697,"~/LOL/testv2.py"
--'  26  29  ~/LOL/testv2.py
-|4,39,26,29,1721912697,"~/LOL/testv2.py"
--'  23  0  ~/LOL/testv2.py
-|4,39,23,0,1721912695,"~/LOL/testv2.py"
+-'  153  0  ~/LOL/0727
+|4,39,153,0,1722091193,"~/LOL/0727"
+-'  1  0  ~/LOL/0727
+|4,39,1,0,1722088413,"~/LOL/0727"
+-'  1  0  ~/LOL/lolAPI.cfg
+|4,39,1,0,1722087032,"~/LOL/lolAPI.cfg"
+-'  1  0  ~/LOL/lolAPI.cfg
+|4,39,1,0,1722087032,"~/LOL/lolAPI.cfg"
 -'  3  9  /home/lolAPI.cfg
-|4,39,3,9,1721910285,"/home/lolAPI.cfg"
+|4,39,3,9,1722086998,"/home/lolAPI.cfg"
+-'  3  9  /home/lolAPI.cfg
+|4,39,3,9,1722086998,"/home/lolAPI.cfg"
+-'  3  9  /home/lolAPI.cfg
+|4,39,3,9,1722086998,"/home/lolAPI.cfg"
+-'  3  9  /home/lolAPI.cfg
+|4,39,3,9,1722086998,"/home/lolAPI.cfg"
 -'  1  0  /home/lolAPI.cfg
-|4,39,1,0,1721909948,"/home/lolAPI.cfg"
--'  1  0  ~/LOL/testv
-|4,39,1,0,1721909854,"~/LOL/testv"
--'  1  0  ~/LOL/testv
-|4,39,1,0,1721909854,"~/LOL/testv"
+|4,39,1,0,1722086906,"/home/lolAPI.cfg"
 -'  1  0  /home/lolAPI.cfg
-|4,39,1,0,1721909831,"/home/lolAPI.cfg"
+|4,39,1,0,1722086906,"/home/lolAPI.cfg"
 -'  1  0  /home/lolAPI.cfg
-|4,39,1,0,1721909831,"/home/lolAPI.cfg"
--'  6  0  /home/lolAPI.cfg
-|4,39,6,0,1721909786,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909786,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909786,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909786,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909786,"/home/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  6  225  ~/lolAPI.cfg
-|4,39,6,225,1721909776,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  7  0  ~/lolAPI.cfg
-|4,39,7,0,1721909761,"~/lolAPI.cfg"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  8  0  /home
-|4,39,8,0,1721909753,"/home"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  8  119  /home/lolAPI.cfg
-|4,39,8,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  8  119  /home/lolAPI.cfg
-|4,39,8,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  8  119  /home/lolAPI.cfg
-|4,39,8,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  8  119  /home/lolAPI.cfg
-|4,39,8,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  2  119  /home/lolAPI.cfg
-|4,39,2,119,1721909673,"/home/lolAPI.cfg"
--'  11  0  /home/lolAPI.cfg
-|4,39,11,0,1721909672,"/home/lolAPI.cfg"
--'  10  2  /home/lolAPI.cfg
-|4,39,10,2,1721909672,"/home/lolAPI.cfg"
--'  5  2  /home/lolAPI.cfg
-|4,39,5,2,1721909672,"/home/lolAPI.cfg"
--'  13  0  /home/lolAPI.cfg
-|4,39,13,0,1721909672,"/home/lolAPI.cfg"
--'  12  2  /home/lolAPI.cfg
-|4,39,12,2,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  13  0  /home/lolAPI.cfg
-|4,39,13,0,1721909672,"/home/lolAPI.cfg"
--'  12  2  /home/lolAPI.cfg
-|4,39,12,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  13  0  /home/lolAPI.cfg
-|4,39,13,0,1721909672,"/home/lolAPI.cfg"
--'  12  2  /home/lolAPI.cfg
-|4,39,12,2,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  13  0  /home/lolAPI.cfg
-|4,39,13,0,1721909672,"/home/lolAPI.cfg"
--'  12  2  /home/lolAPI.cfg
-|4,39,12,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  7  0  /home/lolAPI.cfg
-|4,39,7,0,1721909672,"/home/lolAPI.cfg"
--'  6  2  /home/lolAPI.cfg
-|4,39,6,2,1721909672,"/home/lolAPI.cfg"
--'  12  0  /home/lolAPI.cfg
-|4,39,12,0,1721909604,"/home/lolAPI.cfg"
--'  14  0  /home/lolAPI.cfg
-|4,39,14,0,1721909604,"/home/lolAPI.cfg"
+|4,39,1,0,1722086906,"/home/lolAPI.cfg"
+-'  1  0  /home/lolAPI.cfg
+|4,39,1,0,1722086906,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  2  52  /home/lolAPI.cfg
+|4,39,2,52,1722085987,"/home/lolAPI.cfg"
+-'  1  0  /home/lolAPI.cfg
+|4,39,1,0,1722085956,"/home/lolAPI.cfg"
+-'  1  0  /home/lolAPI.cfg
+|4,39,1,0,1722085956,"/home/lolAPI.cfg"
+-'  1  0  /home/lolAPI.cfg
+|4,39,1,0,1722085956,"/home/lolAPI.cfg"
+-'  1  0  /home/lolAPI.cfg
+|4,39,1,0,1722085956,"/home/lolAPI.cfg"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  60  18  ~/LOL/rate.py
+|4,39,60,18,1722085941,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  25  0  ~/LOL/rate.py
+|4,39,25,0,1722085932,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  45  0  ~/LOL/rate.py
+|4,39,45,0,1722085912,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  1  0  ~/LOL/rate.py
+|4,39,1,0,1722085886,"~/LOL/rate.py"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
+-'  139  0  ~/LOL/test
+|4,39,139,0,1722010988,"~/LOL/test"
 
 # History of marks within files (newest to oldest):
 
+> ~/LOL/0727
+	*	1722091188	0
+	"	153	0
+
+> ~/LOL/lolAPI.cfg
+	*	1722087031	0
+	"	1	0
+
+> /home/lolAPI.cfg
+	*	1722086997	0
+	"	3	9
+	^	3	10
+	.	3	9
+	+	16	54
+	+	16	0
+	+	16	120
+	+	16	11
+	+	16	0
+	+	16	120
+	+	16	0
+	+	16	8
+	+	16	7
+	+	16	56
+	+	16	10
+	+	16	14
+	+	16	223
+	+	16	10
+	+	16	9
+	+	16	15
+	+	16	209
+	+	16	0
+	+	16	8
+	+	19	4
+	+	11	0
+	+	16	0
+	+	11	0
+	+	6	0
+	+	7	0
+	+	8	5
+	+	6	109
+	+	6	9
+	+	9	226
+	+	6	119
+	+	11	0
+	+	6	0
+	+	1	0
+	+	6	0
+	+	4	0
+	+	3	9
+	+	6	14
+	+	7	0
+	+	6	98
+	+	6	91
+	+	3	9
+	+	2	52
+	+	3	9
+
+> ~/LOL/rate.py
+	*	1722085939	0
+	"	60	18
+	^	121	1
+	.	121	0
+	+	1	0
+	+	162	0
+	+	161	0
+	+	107	0
+	+	106	0
+	+	107	0
+	+	120	0
+	+	122	3
+	+	106	0
+	+	120	0
+	+	121	0
+
+> ~/LOL/test
+	*	1722010986	0
+	"	139	0
+
 > ~/LOL/testv2.py
-	*	1721912918	0
-	"	36	0
+	*	1722002612	0
+	"	99	1
 	^	35	91
 	.	35	90
 	+	111	0
@@ -579,47 +659,91 @@ $
 	+	17	53
 	+	35	90
 
-> /home/lolAPI.cfg
-	*	1721910284	0
-	"	3	9
-	^	3	10
-	.	3	9
-	+	17	54
-	+	17	0
-	+	17	120
-	+	17	11
-	+	17	0
-	+	17	120
-	+	17	0
-	+	17	8
-	+	17	7
-	+	17	56
-	+	17	10
-	+	17	14
-	+	17	223
-	+	17	10
-	+	17	9
-	+	17	15
-	+	17	209
-	+	17	0
-	+	17	8
-	+	20	4
-	+	12	0
-	+	17	0
-	+	12	0
-	+	6	0
-	+	8	0
-	+	9	5
-	+	7	10
-	+	6	9
-	+	10	226
-	+	6	119
-	+	12	0
-	+	6	0
+> ~/LOL/testv4.py
+	*	1722002016	0
+	"	1	0
+	^	95	15
+	.	95	14
+	+	171	0
+	+	165	0
+	+	164	0
+	+	161	0
+	+	160	0
+	+	124	0
+	+	156	0
+	+	135	19
+	+	133	0
+	+	126	0
+	+	127	35
+	+	128	45
+	+	129	29
+	+	130	19
+	+	131	88
+	+	132	88
+	+	134	62
+	+	136	26
+	+	136	47
+	+	137	40
+	+	140	70
+	+	140	121
+	+	141	91
+	+	142	74
+	+	143	71
+	+	144	65
+	+	147	77
+	+	139	0
+	+	140	1
+	+	141	0
+	+	142	5
+	+	143	5
+	+	144	6
+	+	145	6
+	+	146	0
+	+	147	15
+	+	149	0
+	+	148	4
+	+	151	45
+	+	150	15
+	+	153	25
+	+	152	78
+	+	154	39
+	+	155	117
+	+	157	37
+	+	159	0
+	+	159	89
+	+	98	0
+	+	140	0
+	+	136	26
+	+	137	3
+	+	137	18
+	+	99	29
+	+	131	0
+	+	124	35
+	+	95	14
+
+> ~/LOL/testv3.py
+	*	1722001635	0
+	"	96	0
+	.	96	0
+	+	18	36
+	+	25	0
+	+	23	0
+	+	120	20
+	+	121	104
+	+	101	0
+	+	96	0
+	+	96	15
+	+	96	0
+	+	97	0
+	+	96	0
+
+> /home/git.cfg
+	*	1721917644	0
+	"	1	0
+	^	3	53
+	.	3	52
 	+	1	0
-	+	6	0
-	+	4	0
-	+	3	9
+	+	3	52
 
 > ~/LOL/testv
 	*	1721909853	0
@@ -656,14 +780,6 @@ $
 	+	1	0
 	+	4	0
 	+	1	0
-
-> /home/git.cfg
-	*	1721909544	0
-	"	1	0
-	^	3	53
-	.	3	52
-	+	1	0
-	+	3	52
 
 > ~/LOL/bye
 	*	1721506460	0
