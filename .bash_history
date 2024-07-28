@@ -875,4 +875,143 @@ ls
 cd LOL/
 ls
 py testv3.py 
-                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                          ls
+cd LOL/
+ls
+gr rate.py 
+ls
+cd ..
+ls
+cd ..
+ls
+gr lolAPI.cfg 
+ls
+cd -
+ls
+cd LOL/
+ls
+gr rate.py 
+pip install riotwatcher
+ls
+cd ..
+ls
+cd ..
+ls
+gr lolAPI.cfg 
+cd -
+ls
+cd LOL/
+ls
+py rate.py 
+py rate.py > 0727
+cd ../..
+ls
+gr lolAPI.cfg 
+cd -
+ls
+gr lolAPI.cfg 
+py rate.py > 0727
+py rate.py 
+py rate.py > 0727
+gr 0727 
+ls
+cd ..
+ls
+cd ..
+ls
+cd -
+ls
+cd Lo
+ls
+cd LOL/
+ls
+mkdir product
+ls
+cd product/
+ls
+cd ..
+ls
+cd ..
+gitadd
+gitcommit
+gitpush
+$GID
+gitpush
+ls
+cd ..
+ls
+gr git.cfg 
+cd -
+ls
+gitpush
+ls
+cd LOL/
+ls
+cd product/
+cd ..
+ls
+gitadd
+gitcommit
+cd ..
+gitadd
+gitcommit
+tree
+ls
+cd -
+ls
+ls -la
+cd product/
+ls -la
+ls
+cd ..
+ls
+mv product/ product_lol
+ls
+cd ..
+ls
+gitadd
+ls -la
+gitadd
+gitcommit
+gitpush
+ls
+gitpush
+ls
+cd LOL/
+ls
+cd product_lol/
+gr riot.txt
+cd ..
+ls
+cd ..
+gitadd
+gitcommit
+gitpush
+gr ~/.cshrc
+gr ~/.bashrc
+ls
+gitpush
+cd 0--
+cd -
+ls
+cd product_lol/
+ls
+gr riot.txt 
+ls
+cd ..
+ls
+cd ..
+ls
+cd -
+ls
+py rate.py > 0728
+gr 0728
+gr rate.py 
+py rate.py > 0728
+gr 072
+py rate.py
+py rate.py > 088
+gr 988
+gr 088
+py rate.py > 0728
+gr 0728 

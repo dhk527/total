@@ -138,7 +138,7 @@ for position in positions:
 	best_win_rate = -1
 
 	for puuid, (wins, total_matches) in individual_win_ratios.items():
-		if total_matches > 0 and puuid[1] == position:
+		if total_matches > 10 and puuid[1] == position:
 			win_rate = wins / total_matches
 			if win_rate > best_win_rate:
 				best_win_rate = win_rate
@@ -154,11 +154,12 @@ sorted_individual_win_ratios = sorted(individual_win_ratios.items(), key=lambda 
 print("\nIndividual Win Rates per Position:")
 for (puuid, position), (wins, total_matches) in sorted_individual_win_ratios:
     if total_matches > 0:
-        win_rate = wins / total_matches
-        print(f"Player: {our_team[puuid]}, Position: {position}, Win Rate: {win_rate:.3f}, Matches: {total_matches}")
+        win_rate = 100 * (wins / total_matches)
+        print(f"Player: {our_team[puuid]}, Position: {position}, Win Rate: {win_rate:.3f}%, Matches: {total_matches}")
 
-print("\nBest Players per Position:")
+print("\nBest Players per Position in number of matches > 10 :")
 for position, (puuid, win_rate) in best_positions.items():
-	print(f"Position: {position}, Best Player: {our_team[puuid]}, Win Rate: {win_rate:.3f}")
+	win_rate = win_rate * 100
+	print(f"Position: {position}, Best Player: {our_team[puuid]}, Win Rate: {win_rate:.3f}%")
 
 
