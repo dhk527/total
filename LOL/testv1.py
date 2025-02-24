@@ -7,7 +7,7 @@ from collections import defaultdict
 from itertools import permutations
 
 # Riot Games API Key
-API_KEY = 'RGAPI-1fe1acd4-2603-4496-9f2f-5aa08c307fdf' # 발급받은 API Key를 입력하세요 limit 10hours in a day.
+API_' # 발급받은 API Key를 입력하세요 limit 10hours in a day.
 count=99
 
 url_match = f'https://asia.api.riotgames.com/lol/match/v5/matches/by-puuid/No36tHMuK88uHGvmSA23e0Iz7W6MqA-FAQ4snTp52z7s7STLeMgHf74PTU-QnmOA5mpeaFDE0wCfsQ/ids?queue=440&type=ranked&start=0&count={count}&api_key={API_KEY}'
